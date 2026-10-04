@@ -1,0 +1,2 @@
+curl.exe -X POST "http://127.0.0.1:8000/djangoapp/login" -H "Content-Type: application/json" --data-raw '{\"userName\":\"root\",\"password\":\"YOUR_PASSWORD\"}'         
+{"userName": "root", "status": "Authenticated"}

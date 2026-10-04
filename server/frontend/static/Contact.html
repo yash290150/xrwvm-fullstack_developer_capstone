@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Us - Dealerships</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #f4f7f9;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+      min-height: 1in;
+      background-color: darkturquoise;
+    }
+
+    .navbar h2 {
+      font-weight: bold;
+      color: white;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-size: larger;
+      margin-right: 15px;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: #003b46 !important;
+      font-weight: bold;
+    }
+
+    .contact-container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 45px auto;
+    }
+
+    .contact-header {
+      background: linear-gradient(135deg, #008b8b, #20c9c9);
+      color: white;
+      padding: 35px;
+      border-radius: 15px;
+      text-align: center;
+      margin-bottom: 35px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .contact-header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    .contact-header p {
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+    .contact-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .contact-image {
+      width: 45%;
+      min-width: 300px;
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+    }
+
+    .contact-image img {
+      width: 100%;
+      height: 100%;
+      min-height: 350px;
+      object-fit: cover;
+    }
+
+    .contact-details {
+      width: 45%;
+      min-width: 300px;
+      background: white;
+      padding: 35px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+    }
+
+    .contact-details h2 {
+      color: #008b8b;
+      margin-bottom: 25px;
+    }
+
+    .contact-item {
+      margin-bottom: 22px;
+    }
+
+    .contact-item h4 {
+      color: #333;
+      margin-bottom: 5px;
+      font-size: 1.1rem;
+    }
+
+    .contact-item p {
+      color: #666;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .contact-item a {
+      color: #008b8b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .contact-image,
+      .contact-details {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg">
+
+    <div class="container-fluid">
+
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">
+              About Us
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active"
+               aria-current="page"
+               href="/contact/">
+              Contact Us
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Contact Us Section -->
+  <div class="contact-container">
+
+    <div class="contact-header">
+
+      <h1>Contact Us</h1>
+
+      <p>
+        Have questions about our dealership platform?
+        Our team is here to help you.
+      </p>
+
+    </div>
+
+
+    <div class="contact-content">
+
+      <!-- Contact Image -->
+      <div class="contact-image">
+
+        <img
+          src="/static/contactus.png"
+          alt="Contact Dealerships">
+
+      </div>
+
+
+      <!-- Contact Details -->
+      <div class="contact-details">
+
+        <h2>Get in Touch</h2>
+
+        <div class="contact-item">
+          <h4>📍 Office Address</h4>
+          <p>
+            Dealerships Support Center<br>
+            Pune, Maharashtra, India
+          </p>
+        </div>
+
+        <div class="contact-item">
+          <h4>📧 Email</h4>
+          <p>
+            <a href="mailto:support@dealerships.example.com">
+              support@dealerships.example.com
+            </a>
+          </p>
+        </div>
+
+        <div class="contact-item">
+          <h4>📞 Phone</h4>
+          <p>
+            <a href="tel:+919876543210">
+              +91 98765 43210
+            </a>
+          </p>
+        </div>
+
+        <div class="contact-item">
+          <h4>🕒 Business Hours</h4>
+          <p>
+            Monday - Friday: 9:00 AM - 6:00 PM<br>
+            Saturday: 10:00 AM - 4:00 PM<br>
+            Sunday: Closed
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+</body>
+</html>
